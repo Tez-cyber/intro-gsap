@@ -1,3 +1,7 @@
+import { ScrollTrigger } from "gsap/all"
+import gsap from "gsap"
+
+gsap.registerPlugin(ScrollTrigger)
 const GsapScrollTrigger = () => {
   // TODO: Implement the gsap scroll trigger
 
