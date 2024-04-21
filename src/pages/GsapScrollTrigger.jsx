@@ -1,8 +1,10 @@
 import { ScrollTrigger } from "gsap/all"
 import gsap from "gsap"
+import { useRef } from "react";
 
 gsap.registerPlugin(ScrollTrigger)
 const GsapScrollTrigger = () => {
+  const scrollRef = useRef()
   // TODO: Implement the gsap scroll trigger
 
   return (
